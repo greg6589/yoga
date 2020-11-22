@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
-  /* NAVBAR */
-.navbar{
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
     position: fixed;
     top: 0;
     left: 0;
@@ -14,14 +20,15 @@
     background-color: rgb(102, 169, 1);
     z-index: 1;
     display: flex;
-    justify-content:space-between
+    justify-content: space-between
 }
 
-.logo{
+.logo {
     display: flex;
 }
-.logo a{
-    align-self:center;
+
+.logo a {
+    align-self: center;
     font-size: 18px;
     line-height: 100%;
     letter-spacing: 2px;
@@ -30,13 +37,15 @@
     color: white;
     padding-left: 20px;
 }
-.burger{
+
+.burger {
     display: flex;
-    align-self:center;
+    align-self: center;
     color: white;
     padding-right: 20px;
 }
-.menu{
+
+.menu {
     position: fixed;
     bottom: 95vh;
     left: 0;
@@ -44,10 +53,12 @@
     background-color: rgb(102, 169, 1);
     padding: 20px;
 }
-.menu li{
+
+.menu li {
     list-style: none;
 }
-.menu li a{
+
+.menu li a {
     display: block;
     width: 100%;
     font-size: 18px;
@@ -56,8 +67,9 @@
     text-transform: uppercase;
     color: white;
 }
+
 /* HEADER */
-header{
+header {
     background-image: url(img/background.jpg);
     height: 100vh;
     width: 100%;
@@ -65,23 +77,62 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
-header h1{
+
+header h1 {
     background-color: rgba(0, 0, 0, 0.5);
-    color:white;
+    color: white;
     text-transform: uppercase;
-    text-shadow:5px 5px 5px black;
+    text-shadow: 5px 5px 5px black;
     padding: 25% 15%;
     height: 100vh;
 }
-header h1 span{
+
+header h1 span {
     padding-right: 40%;
     overflow: hidden;
-  }
+}
 
-  .greenBar{
-      width: 100%;
-      overflow: hidden;
-      margin-left: auto;
-     margin-right: auto;
-  }
+.greenBar {
+    width: 100%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+/* ABOUT */
+.about {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.description {
+    width: 100%;
+    padding: 1% 5%;
+}
+
+.description ul {
+    list-style: none;
+}
+
+.spnNumber {
+    color: gray;
+    font-size: 42px;
+}
+
+.spnGreen {
+    color: rgb(102, 169, 1);
+}
+
+.imgPosture img {
+    width: 100%;
+    height: auto;
+}
+
+li .spnGreen {
+    font-size: 26px;
+    font-weight: 700;
+    padding-right: 5px;
+}
