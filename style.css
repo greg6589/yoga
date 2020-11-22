@@ -110,6 +110,10 @@ header h1 span {
     flex-wrap: wrap
 }
 
+.about p {
+    padding: 5px 0px;
+}
+
 .description {
     width: 100%;
     padding: 1% 5%;
@@ -147,6 +151,7 @@ li .spnGreen {
     flex-wrap: wrap;
     background-color: rgb(102, 169, 1);
     padding: 5%;
+    margin-bottom: 5%;
 }
 
 .actionBanner div {
@@ -172,4 +177,16 @@ li .spnGreen {
     border: 2px white;
     border-radius: 5px;
     box-shadow: 2px 2px 10px 1px black;
+}
+
+.services {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.services div {
+    width: 100%;
 }
