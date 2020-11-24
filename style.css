@@ -244,5 +244,58 @@ li .spnGreen {
     display: block;
     margin: 25px auto;
     color: rgb(102, 169, 1);
+}
 
+footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    ;
+}
+
+.contact {
+    width: 100%;
+    padding: 8%;
+}
+
+.contact span {
+    padding-right: 5px;
+}
+
+.telefon {
+    display: block;
+    text-decoration: none;
+    color: rgb(102, 169, 1);
+}
+
+.fa-mobile-alt {
+    color: black
+}
+
+.mail {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.socials {
+    font-size: 36px;
+}
+
+.copyright {
+    height: 36px;
+    line-height: 36px;
+}
+
+.fa-facebook {
+    color: #1094F4;
+}
+
+.fa-instagram {
+    color: #EF8943;
+}
+
+.fa-youtube {
+    color: #FF0000;
 }
