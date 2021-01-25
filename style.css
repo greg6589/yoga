@@ -101,6 +101,10 @@ header h1 span {
     margin-bottom: -5px;
 }
 
+.greenBar img {
+    width: 100%;
+}
+
 
 
 /* ABOUT */
@@ -853,4 +857,27 @@ footer {
     .copyright {
         padding-left: 1%;
     }
+}
+
+@media (min-width: 1900px) and (orientation:landscape) {
+
+    nav {
+        height: 4vh;
+    }
+
+    .navbar {
+        height: 4vh;
+    }
+
+    .menu {
+        height: 4vh;
+        line-height: 4vh;
+        width: 40%;
+    }
+
+    .logo a {
+        font-size: 22px;
+        padding-left: 100px;
+    }
+
 }
