@@ -880,4 +880,12 @@ footer {
         padding-left: 100px;
     }
 
+    header h1 {
+        padding: 27% 15%;
+    }
+
+    header h1 span {
+        padding-right: 60%;
+    }
+
 }
