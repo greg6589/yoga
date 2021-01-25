@@ -112,7 +112,7 @@ header h1 span {
     width: 100%;
     overflow: hidden;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap
 }
@@ -886,6 +886,20 @@ footer {
 
     header h1 span {
         padding-right: 60%;
+    }
+
+    .about {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .description {
+        width: 35%;
+        padding: 1%;
+    }
+
+    .imgPosture {
+        width: 35%;
     }
 
 }
