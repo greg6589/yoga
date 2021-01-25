@@ -660,6 +660,49 @@ footer {
     }
 }
 
+@media (min-width: 1360px) and (orientation:landscape) {
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 5vh;
+        background-color: rgb(102, 169, 1);
+        z-index: 1;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar {
+        position: static;
+        width: 30%;
+    }
+
+    .menu {
+        position: static;
+        height: 5vh;
+        line-height: 5vh;
+        width: 50%;
+        padding: 0px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .logo a {
+        font-size: 22px;
+    }
+
+    .burger {
+        display: none;
+    }
+
+    .menu li {
+        display: inline-block;
+    }
+
+    .menu li a {
+        font-size: 22px;
+    }
     .description {
         width: 50%;
     }
