@@ -809,3 +809,48 @@ footer {
         padding-left: 2%;
     }
 }
+
+@media (min-width: 1600px) and (orientation:landscape) {
+    header h1 {
+        padding: 27% 15%;
+    }
+
+    header h1 span {
+        padding-right: 50%;
+    }
+
+    .about {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .description.plans {
+        padding-top: 50px;
+    }
+
+    .imgPosture img {
+        width: 100%;
+    }
+
+
+    .pricing div {
+        width: 20%;
+    }
+
+    .pricing p {
+        font-size: 18px;
+    }
+
+    .contact {
+        padding: 1%;
+    }
+
+    .actionBanner {
+        padding: 1%;
+        margin-bottom: 1%;
+    }
+
+    .copyright {
+        padding-left: 1%;
+    }
+}
