@@ -45,14 +45,20 @@ body {
     padding-right: 20px;
 }
 
+
 .menu {
     position: fixed;
-    bottom: 95vh;
+    top: -95vh;
     left: 0;
     right: 0;
     background-color: rgb(102, 169, 1);
     padding: 20px;
+    transition: 1s;
 }
+
+
+
+
 
 .menu li {
     list-style: none;
@@ -295,7 +301,6 @@ footer {
 }
 
 .contact span {
-    /* padding-right: 5px; */
     width: 25px;
 
 }
@@ -355,7 +360,10 @@ footer {
     color: #FF0000;
 }
 
-/* Media mobile landscape */
+.active {
+    top: 5vh;
+}
+
 
 @media (min-width: 640px) and (orientation: landscape) {
     .navbar {
@@ -368,9 +376,14 @@ footer {
     }
 
     .menu {
-        bottom: 90vh;
+        top: -95vh;
         padding: 20px 20px 20px 50px;
     }
+
+    .active {
+        top: 5vh;
+    }
+
 
     header h1 {
         padding: 10% 15%;
@@ -421,9 +434,14 @@ footer {
     }
 
     .menu {
-        bottom: 95vh;
+        top: -95vh;
         padding: 20px 20px 20px 60px;
     }
+
+    .active {
+        top: 5vh;
+    }
+
 
     .menu li a {
         font-size: 22px;
@@ -548,9 +566,14 @@ footer {
     }
 
     .menu {
-        bottom: 95vh;
+        top: -95vh;
         padding: 20px 20px 20px 60px;
     }
+
+    .active {
+        top: 5vh;
+    }
+
 
     .menu li a {
         font-size: 22px;
@@ -908,4 +931,13 @@ footer {
 
 }
 
-/*  */
+
+
+
+
+/* 
+1. Javascript i obsługa buttona z rozwijanym menu
+2.Zmiana czcionki header
+3.Animacja description
+4.Animacja wibrującego buttona
+5. Onclick na wersję planu */
