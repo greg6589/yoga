@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
 
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -930,14 +936,3 @@ footer {
     }
 
 }
-
-
-
-
-
-/* 
-1. Javascript i obsługa buttona z rozwijanym menu
-2.Zmiana czcionki header
-3.Animacja description
-4.Animacja wibrującego buttona
-5. Onclick na wersję planu */
