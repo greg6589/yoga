@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -51,7 +49,6 @@ body {
     padding-right: 20px;
 }
 
-
 .menu {
     position: fixed;
     top: -95vh;
@@ -61,10 +58,6 @@ body {
     padding: 20px;
     transition: 1s;
 }
-
-
-
-
 
 .menu li {
     list-style: none;
@@ -117,8 +110,6 @@ header h1 span {
     width: 100%;
 }
 
-
-
 /* ABOUT */
 .about {
     width: 100%;
@@ -128,7 +119,6 @@ header h1 span {
     align-items: center;
     flex-wrap: wrap
 }
-
 
 .description p {
     padding: 5px 0px;
@@ -271,7 +261,6 @@ li .spnGreen {
     border: 1px white;
     border-left: 5px solid rgb(102, 169, 1);
     border-right: 5px solid rgb(102, 169, 1);
-
 }
 
 .pricing p {
@@ -293,7 +282,6 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 10px;
-    ;
 }
 
 .contact {
@@ -308,14 +296,12 @@ footer {
 
 .contact span {
     width: 25px;
-
 }
 
 .telefon {
     display: block;
     text-decoration: none;
     color: rgb(102, 169, 1);
-
 }
 
 .fa-map-marker-alt {
@@ -390,10 +376,8 @@ footer {
         top: 5vh;
     }
 
-
     header h1 {
         padding: 10% 15%;
-
     }
 
     header h1 span {
@@ -580,7 +564,6 @@ footer {
         top: 5vh;
     }
 
-
     .menu li a {
         font-size: 22px;
     }
@@ -593,8 +576,6 @@ footer {
     header h1 span {
         padding-right: 15%;
     }
-
-
 
     .description {
         width: 50%;
@@ -889,7 +870,6 @@ footer {
 }
 
 @media (min-width: 1900px) and (orientation:landscape) {
-
     nav {
         height: 4vh;
     }
@@ -934,5 +914,4 @@ footer {
     .pricing div {
         width: 15%;
     }
-
 }

@@ -3,7 +3,6 @@ const menu= document.querySelector(".menu");
 const menuList=document.querySelector(".menu");
 
 
-
 burger.addEventListener("click", function(){
     menu.classList.toggle("active")
 } )
@@ -11,8 +10,3 @@ burger.addEventListener("click", function(){
 menuList.addEventListener("click", function(){
     menu.classList.remove("active")
 } )
-
-
-
-
-
