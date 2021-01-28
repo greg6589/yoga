@@ -6,7 +6,6 @@ burger.addEventListener("click", function(){
 } )
 
 const hideMenu=()=>{
-    console.log("działa");
     menu.classList.remove("active")
 }
 
